@@ -1,0 +1,75 @@
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+  
+  
+    .textBlock {
+      min-height: 20vh;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: rgb(172, 180, 180);
+      border-radius: 5px;
+      box-shadow: 12px 12px 2px 1px rgba(14, 14, 14, 0.2);
+  
+      .textName {
+        padding-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        color: rgb(31, 35, 80);
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+      }
+  
+      .textArea {
+        margin-bottom: 20px;
+        align-self: center;
+  
+        padding: 10px 5px 5px 10px;
+        border-radius: 5px;
+        border: none;
+      }
+  
+  
+      .errorMessage {
+        text-align: center;
+        font-size: 15px;
+        color: red;
+      }
+  
+      .btn {
+        width: 100px;
+        margin-bottom: 20px;
+        padding: 5px 5px 5px 5px;
+        align-self: center;
+        border: none;
+        border-radius: 5px;
+        color: rgb(29, 30, 38);
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+      }
+  
+      .btn:hover {
+        background-color: rgb(159, 135, 182);
+        box-shadow: 10px 5px 5px rgba(14, 14, 14, 0.2);
+      }
+  
+      .btn:active {
+        background-color: rgb(126, 56, 191);
+      }
+    }
+  
+    .postContainer {
+      min-height: 10vh;
+      margin-top: 30px;
+      padding: 5px 5px 5px 5px;
+      background-color: rgb(172, 180, 180);
+      border-radius: 5px;
+      box-shadow: 12px 12px 2px 1px rgba(14, 14, 14, 0.2);
+      word-break: break-all;
+     
+    }
+  }
