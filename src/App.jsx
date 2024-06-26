@@ -3,7 +3,7 @@ import styles from './App.module.scss'
 
 function App() {
   const [text, setText] = useState("");
-  const [textOnScreen, setTextOnScreen] = useState();
+  const [textOnScreen, setTextOnScreen] = useState("");
   const [textError, setTextError] = useState("");
 
 
